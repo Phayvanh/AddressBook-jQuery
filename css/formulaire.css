@@ -1,0 +1,67 @@
+#content{
+	margin: 0 auto;
+	width: 800px;
+}
+
+h1{
+	text-align: center;
+}
+
+.hide{
+	display: none;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+label{
+	float: left;
+	clear: both;
+	display: block;
+	width: 100px;
+}
+
+form{
+	background-color: #F2F1F0;
+}
+
+legend{
+	font-weight: bold;
+	color: #3C3B37;
+}
+
+.bouton a{
+	text-decoration: none;
+	color: #000;
+	border: 1px solid #ccc;
+	background-color: #F2F1F0;
+	line-height: 30px;
+	padding: 5px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #000;
+}
+
+input[type="button"]{
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-shadow: 1px 1px 1px #000;
+	padding: 5px 15px;
+	color: #000;
+}
+
+section ul.bouton li{
+	display: inline-block;
+}
+
+section ul{
+	text-align: center;
+}
+
+#js-adress-book a{
+	text-decoration: none;
+	color: #000;
+	
+}

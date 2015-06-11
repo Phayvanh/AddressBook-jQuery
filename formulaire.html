@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulaire</title>
+	<link rel="stylesheet" type="text/css" href="css/formulaire.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<script src="js/utilities.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+</head>
+<body>
+	<div id="content">
+		<h1>Carnet d'adresse</h1>
+	<section>
+			<ul id="js-adress-book">
+			</ul>
+			<aside id="js-contact-details"></aside>
+			<hr>
+			<ul class="bouton">
+				<li><a id="js-add-contact" href="#">ajouter un contact</a></li>
+				<li><a id="js-clear-adress-book" href="#">effacer le carnet d'adresse</a></li>
+			</ul>
+	</section>
+	<form id="js-contact-form" class="hide" data-mode="add">
+		<fieldset>
+			<legend>information</legend>
+			<ul>
+				<li>
+					<label for="Title">civilité :</label>
+					<select id="Title" name="Title">
+						<option value="Madam">Madame</option>
+						<option value="Mister">Monsieur</option>
+						<option value="Miss">Mademoiselle</option>
+					</select>
+				</li>
+				<li>
+					<label for="firstName">Prénom :</label>
+					<input type="text" name="firstName" id="firstName">
+				</li>
+				<li>
+					<label for="lastName">Nom :</label>
+					<input type="text" name="lastName" id="lastName">
+				</li>
+				<li>
+					<label for="Phone">téléphone :</label>
+					<input type="text" name="Phone" id="Phone">
+				</li>
+				<li>
+					<input type="button" id="js-save-contact" value="Envoyé">
+				</li>
+			</ul>
+		</fieldset>
+	</form>
+	</div>	
+	<script src="js/adressbook.js"></script>
+	<script src="js/evenement.js"></script>
+</body>
+</html>
